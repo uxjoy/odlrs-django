@@ -24,8 +24,9 @@ urlpatterns = [
     # Admin dashboard path
     path('admin/', admin.site.urls),
 
-    # # user_authentication app's path
+    # user_authentication app's path
     # path('user/', include('user_authentication.urls')),
+
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
